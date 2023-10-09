@@ -4,6 +4,6 @@ public class CmdArgs {
     public static void main(String [] args){
         System.out.println("What is your name");
         Scanner scnr = new Scanner(System.in);
-        System.out.println("Hi "+scnr.next());
+        System.out.println("hELLO "+scnr.next());
     }
 }

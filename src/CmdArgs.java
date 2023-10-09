@@ -1,7 +1,9 @@
+import java.util.Scanner;
+
 public class CmdArgs {
     public static void main(String [] args){
-        for(String s: args){
-            System.out.println(s);
-        }
+        System.out.println("What is your name");
+        Scanner scnr = new Scanner(System.in);
+        System.out.println("Hi "+scnr.next());
     }
 }
